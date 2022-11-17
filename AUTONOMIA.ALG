@@ -8,15 +8,16 @@ Var
 // Seção de Declarações das variáveis 
 //calcule o combustivel gasto em uma viagem de 2000 Km, com autonomia de 10 litros/Km.
 
-KM,AUTONOMIA:real
+KM,GASTO:real
 
 
 Inicio
 // Seção de Comandos, procedimento, funções, operadores, etc... 
-escreval("QUANTOS VOCÊ GASTOU DE COMBUSTIVEL EM UMA VIAGEM?")
-escreval("QUAL FOI A DISTANCIA DA VIAGEM?")
+escreval("VOCÊ QUER DESCOBRIR QUAL A AUTONOMIA DO SEU CARRO?")
+escreval("ME DIGA A DISTANCIA PERCORRIDA E O COMBUSTIVEL GASTO EM UMA VIAGEM")
+escreva("KM PERCORRIDO:")
 leia(KM)
-escreval("QUAL A AUTONOMIA DO SEU CARRO?")
-leia(AUTONOMIA)
-escreva("VOCÊ GASTOU ",KM/AUTONOMIA, " LITROS DE COMBUSTIVEL" )
+escreva("COMBUSTIVEL GASTO:")
+leia(GASTO)
+escreva("SEU CARRO TEVE A AUTONOMIA DE ",KM/GASTO, " LITROS POR KM" )
 Fimalgoritmo
